@@ -11,6 +11,6 @@ def link
   puts cool = "It's Dangerous To Go Alone! Take This."
 end
 
-def all_phrases do
-  expect{all_phrases}.to output #{mario}
+def all_phrases
+  puts together = "#{mario},#{toadstool},#{link}"
 end
